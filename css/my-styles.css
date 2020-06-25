@@ -14,20 +14,13 @@ body{
 	color:#20401D;
 	font-size: 20px;
 }
-.display-4{
+.jumbotron-heather{
 	text-align: end;
 	
 }
-.names{
-	text-align: center;
-	text-decoration-color: black;
-}
 img{
-	border-color: green;
-	border-style: dashed;
-	border-width: thick;
+	align-content: center;
+	margin: auto;
+	padding: 5px;
 }
-div{
-	margin: 0px;
-	padding: 0px;
-}
+
