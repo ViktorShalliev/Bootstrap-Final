@@ -2,11 +2,22 @@ body{
 	margin: auto;
 	padding: auto;
 	background-color:#F2EEEE;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 .my-style{
 	text-align: center;
 	color: green;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+.page2-p{
+	text-align: center;
+	color: #1D6611;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: 3px;
 }
 
 .paragraph{
@@ -24,13 +35,33 @@ img{
 	margin-right: 90px;
 	padding: 2px;
 	border:dashed;
-	border-color: darkgreen;
+	border-color: white;
 }
 .footballers{
 	text-align: center;
 	text-decoration: underline;
+	text-decoration-color: aliceblue;
+	font-size: 25px;
+	color: #FFFFFF;
 }
 .container-fluid{
 	object-position: center;
 	position: relative;
+	padding-bottom:10px;
+}
+footer{
+	background-color: antiquewhite;
+	margin-top: auto;
+}
+.backgroundimg{
+	background-image: url("../images/field.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.carousel {
+	margin-left: 500px;
+}
+.container-fluid2{
+	margin: 50px;
+	padding: 10px;
 }
