@@ -1,6 +1,6 @@
 body{
-	margin: 0px;
-	padding: 0px;
+	margin: auto;
+	padding: auto;
 	background-color:#F2EEEE;
 }
 .my-style{
@@ -20,7 +20,17 @@ body{
 }
 img{
 	align-content: center;
-	margin: auto;
-	padding: 5px;
+	margin: 10px;
+	margin-right: 90px;
+	padding: 2px;
+	border:dashed;
+	border-color: darkgreen;
 }
-
+.footballers{
+	text-align: center;
+	text-decoration: underline;
+}
+.container-fluid{
+	object-position: center;
+	position: relative;
+}
